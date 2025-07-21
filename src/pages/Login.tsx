@@ -17,6 +17,8 @@ const Login = () => {
     e.preventDefault();
     // Handle login logic here
     console.log("Login attempt:", { email, password, rememberMe });
+    // Redirect to welcome page after login
+    window.location.href = "/welcome";
   };
 
   return (
