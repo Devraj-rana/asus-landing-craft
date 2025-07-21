@@ -11,15 +11,15 @@ const Hero = () => {
   };
 
   return (
-    <section id="hero" className="min-h-screen relative overflow-hidden bg-hero-gradient">
+    <section id="hero" className="min-h-screen relative overflow-hidden bg-gradient-to-br from-background via-background/98 to-muted/30">
       {/* Background Image */}
       <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20"
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-10 dark:opacity-20"
         style={{ backgroundImage: `url(${heroImage})` }}
       />
       
       {/* Gradient Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-r from-background/90 via-background/70 to-transparent" />
+      <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/80 to-background/70" />
       
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-32 pb-20 min-h-screen flex items-center">
