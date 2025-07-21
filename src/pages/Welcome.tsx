@@ -185,7 +185,7 @@ const Welcome = () => {
             <Button 
               variant="outline"
               size="lg"
-              className="border-white/30 text-white hover:bg-white/10 backdrop-blur-sm hover:scale-105 transition-all"
+              className="border-white/30 text-white hover:bg-white/10 backdrop-blur-sm hover:scale-105 transition-all bg-transparent"
               onClick={() => navigate('/login')}
             >
               Back to Login
